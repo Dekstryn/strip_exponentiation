@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="Strona pozwalająca rozpisać potęgowanie na monożenie i dodawanie">
+    <meta name="author" content="Krzysztof Nyrek">
+
+
+    <title>Rozbierz potęgowanie</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../static/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../static/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../static/jumbotron-narrow.css" rel="stylesheet">
+
+  </head>
+<body>
+<div class="container">
+    <h2>{{ the_title }}</h2>
+    <p>Podałeś następujące dane:</p>
+        <table>
+        <tr><td>Liczba:</td><td>{{ ta_liczba }}</td></tr>
+        <tr><td>Potęga:</td><td>{{ ta_potega }}</td></tr>
+    </table>
+
+    <p>Gdy potęgowanie zapiszemy jako mnożenie, wyglądać będzie tak:</p>
+    <h3>{{ to_mnozenie }}</h3>
+
+    <p>Gdy potęgowanie zapiszemy jako dodawanie, wyglądać będzie tak:</p>
+    <h3>{{ to_dodawanie }}</h3>
+       </div>
+
+      <footer class="footer">
+        <p>&copy; 2019 Adnotio</p>
+      </footer>
+
+
+</body>
+</html>

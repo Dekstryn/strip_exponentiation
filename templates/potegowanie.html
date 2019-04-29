@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block body %}
+<div class="container">
+    <h2>{{ the_title }}</h2>
+    <p>Podałeś następujące dane:</p>
+        <table>
+        <tr><td>Liczba:</td><td>{{ ta_liczba }}</td></tr>
+        <tr><td>Potęga:</td><td>{{ ta_potega }}</td></tr>
+    </table>
+
+    <p>Gdy potęgowanie zapiszemy jako mnożenie, wyglądać będzie tak:</p>
+    <h3>{{ to_mnozenie }}</h3>
+
+    <p>Gdy potęgowanie zapiszemy jako dodawanie, wyglądać będzie tak:</p>
+    <h3>{{ to_dodawanie }}</h3>
+       </div>
+
+{% endblock %}
