@@ -2,10 +2,12 @@
 def rozb_pot(liczba, potega):
 
     i = 1
-    a = liczba
-    b = liczba
+    numbers = [0,1,2,3,4,5,6,7,8,9]
+    a = str(numbers[liczba])
+    b = str(numbers[liczba])
+    number = str(numbers[liczba])
     pot = potega
-    lic = int(liczba)
+    lic = liczba
     lista =[]
 #Exceptions
     if lic == 0:
@@ -23,12 +25,12 @@ def rozb_pot(liczba, potega):
 #calculations
     else:
         while i < pot:
-            a = a + "*" + liczba
+            a = a + "*" + number
             i += 1
         i = 1
         lista.append(a)
         while i < lic:
-            b = b + "+" + liczba
+            b = b + "+" + number
             i += 1
         i = 1
         if pot > 2:
