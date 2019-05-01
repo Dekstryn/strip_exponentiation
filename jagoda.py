@@ -7,7 +7,7 @@ app = Flask(__name__)
 #calculation and result generation
 @app.route('/potegowanie', methods=['POST'])
 def do_potegowanie():
-    liczba = "'" + (request.form['liczba']) + "'"
+    liczba = request.form['liczba']
     potega = request.form['potega']
     wynik = (rozb_pot(liczba, potega))
 
@@ -18,9 +18,9 @@ def do_potegowanie():
     return render_template('potegowanie.html',
                            ta_liczba=liczba,
                            ta_potega=potega,
-                           ten_wynik=wynik,)
-                           #to_mnozenie=mnozenie,
-                           #to_dodawanie=dodawanie,)
+                           ten_wynik=wynik,
+                           to_mnozenie=mnozenie,
+                           to_dodawanie=dodawanie,)
 
 #collecting data
 @app.route('/')
