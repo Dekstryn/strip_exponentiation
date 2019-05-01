@@ -1,6 +1,6 @@
 # coding: UTF-8
 def rozb_pot(liczba, potega):
-
+    liczba = str(liczba)
     i = 1
     a = liczba
     b = liczba
