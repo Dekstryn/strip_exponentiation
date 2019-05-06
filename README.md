@@ -1,5 +1,8 @@
-Web app strip exponentiation ver. 0.9
+Web app strip exponentiation ver. 1.0
 Python and Flask
+
+Updating:
+Thx to Dawid aplicattion works fine.
 
 Updating:
 On branch lista I made new transformation type form int to str via list. It's working fine, at least like function but in web app appears error:
