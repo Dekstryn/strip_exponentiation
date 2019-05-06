@@ -2,7 +2,7 @@ Web app strip exponentiation ver. 1.0
 Python and Flask
 
 Updating:
-Thx to Dawid aplicattion works fine.
+Thx to Daniel aplicattion works fine.
 
 Web app strip exponentiation ver. 0.9
 Python and Flask
